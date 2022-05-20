@@ -43,6 +43,10 @@
         height: 100%;
     }
 
+    #video-sec {
+        min-height: 100vh !important;
+    }
+
 }
 
 /* ============ desktop view .end// ============ */
@@ -92,7 +96,7 @@ ul.nav a:hover {
 }
 
 #video-sec {
-    min-height: 70vh;
+    min-height: 50vh;
     padding-bottom: 30%;
 }
 
