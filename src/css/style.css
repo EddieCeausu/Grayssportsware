@@ -47,18 +47,29 @@
         min-height: 100vh !important;
     }
 
+    h6.text-uppercase.fw-bold.fs-3 {
+        margin-bottom: 5.5rem !important;
+    }
+
+    #hero-banner {
+        width: auto !important;
+    }
+
 }
 
-/* ============ desktop view .end// ============ */
+/* ============ desktop view .end// ============
 
-/* ============ Medium ============
+/* ============ Medium ============ */
 @media all and (min-width: 768px) {
-    #contentWrapper { flex-direction: column; }
+    
+    #hero-banner h1 {
+        font-size: 99px !important;
+    }
 }
 /* ============ Medium view .end// ============ */
-/* 
 
-#mapWrapper {
+
+/* #mapWrapper {
     position: relative;
     Aspect Ratio
     padding-bottom: 60% !important;
@@ -80,7 +91,7 @@
 
     @media all and (max-width: 1145px) {
         #contentWrapper { flex-direction: column !important; }
-    } */
+    }  */
 
 #mapWrapper iframe {
     overflow: hidden;
@@ -96,31 +107,54 @@ ul.nav a:hover {
 }
 
 #video-sec {
-    min-height: 50vh;
+    min-height: 100vh;
     padding-bottom: 30%;
 }
 
 .centered-background {
     min-width: 100%;
     min-height: 100%;
+    /* height: 100vh; */
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-position: center; */
     overflow-y: hidden;
     overflow-x: hidden;
     top: 0;
     left: 0;
     z-index: 0;
 }
+/* 
+    @media all and (max-width:768px) {
+        .centered-background {
+            height: 100vh;
+        }
+    } */
 
 
 #hero-banner {
     position: absolute;
+    width: 100%;
     z-index: 10;
     top: 50%;
     left: 50%;
     bottom: 0%;
     transform: translate(-50%, -50%);
     padding-top: 27rem !important;
+}
+
+#hero-banner h1 {
+    font-size: 40px;
+    font-weight: 400;
+    width: 100%;
+}
+
+#hero-banner-background {
+    background-color: rgba(225, 225, 225, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    padding: 1rem;
 }
 
 #aboutHero {
@@ -173,10 +207,10 @@ ul.nav a:hover {
     z-index: 99;
 }
 
-@media all and (max-width:576px) {
+@media all and (max-width: 576px) {
     #contactWrapper {
         width: 100%;
-    }  
+    }
 }
 
 
@@ -185,8 +219,13 @@ ul.nav a:hover {
 }
 
 .blur {
-    filter: blur(5px);
+    filter: blur(5px) !important;
 }
+
+.sepia {
+    filter: sepia(100%) !important;
+}
+
 
 /* Always on top */
 
