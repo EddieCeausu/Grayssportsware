@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
 
-@media only screen and (max-width: 990px) {
+/* @media only screen and (max-width: 990px) {
     .mobile-center {
         text-align: center;
     }
-}
+} */
 
 
 /* ============ Desktop ============ */
@@ -65,6 +65,14 @@
     #hero-banner h1 {
         font-size: 99px !important;
     }
+
+    #hero-banner {
+        padding-top: 27rem !important;
+    }
+
+    #contactUs {
+        text-align: center !important;
+    }
 }
 /* ============ Medium view .end// ============ */
 
@@ -92,6 +100,7 @@
     @media all and (max-width: 1145px) {
         #contentWrapper { flex-direction: column !important; }
     }  */
+
 
 #mapWrapper iframe {
     overflow: hidden;
@@ -142,7 +151,7 @@ ul.nav a:hover {
     left: 50%;
     bottom: 0%;
     transform: translate(-50%, -50%);
-    padding-top: 27rem !important;
+    padding-top: 5rem !important;
 }
 
 #hero-banner h1 {
