@@ -226,6 +226,10 @@ ul.nav a:hover {
     filter: sepia(100%) !important;
 }
 
+a.text-reset.text-decoration-none:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
 
 /* Always on top */
 
@@ -271,13 +275,3 @@ ul.nav a:hover {
     grid-auto-rows: 480px;
   }
   
-  /* Medium screens */
-  @media screen and (min-width: 600px) {
-    /* .gallery-tall {
-      grid-row: span 2 / auto;
-    }
-  
-    .gallery-wide {
-      grid-column: span 2 / auto;
-    } */
-  }
