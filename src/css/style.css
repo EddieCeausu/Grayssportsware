@@ -52,7 +52,7 @@
     }
 
     #hero-banner {
-        width: auto !important;
+        width: 75% !important;
     }
 
 }
@@ -76,6 +76,16 @@
 }
 /* ============ Medium view .end// ============ */
 
+@media all and (max-width: 576px) {
+    #contactWrapper {
+        width: 100%;
+    }
+
+    .mb-50 {
+       height: 150vh !important;
+    }
+
+}
 
 /* #mapWrapper {
     position: relative;
@@ -214,12 +224,6 @@ ul.nav a:hover {
 
 #big-nav {
     z-index: 99;
-}
-
-@media all and (max-width: 576px) {
-    #contactWrapper {
-        width: 100%;
-    }
 }
 
 
