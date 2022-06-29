@@ -151,7 +151,7 @@ ul.nav a:hover {
     left: 50%;
     bottom: 0%;
     transform: translate(-50%, -50%);
-    padding-top: 5rem !important;
+    /* padding-top: 5rem !important; */
 }
 
 #hero-banner h1 {
