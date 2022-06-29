@@ -294,7 +294,7 @@ a.text-reset.text-decoration-none:hover {
     display: grid;
     gap: 1rem 0.5rem;
     /* margin-left: -5% !important; */
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-auto-rows: 500px;
 
 }
