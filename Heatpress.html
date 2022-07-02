@@ -15,7 +15,7 @@
 
 <body class="">
     <header class="d-block teko">
-        <nav id="big-nav" class="navbar navbar-expand-lg navbar-light bg-light text-muted fs-2 justify-content-center">
+        <nav id="big-nav" class="navbar navbar-expand-md navbar-light bg-light text-muted fs-2 justify-content-center">
             <div class="d-flex container-fluid mobile-center m-2 mb-3">
                 <a class="navbar-brand" href="index.html">
                     <img src="src/images/website logo.png" alt="" width="144">
@@ -127,41 +127,29 @@
         </nav>
     </header>
     <!-- Main Contnet Wrapper -->
-    <section id="main-content" class="container-fluid m-0 p-0 top-left d-block">
-        <!-- Flex Positioning  -->
-        <div class="container-fluid d-flex flex-column m-0 p-0">
-            <div id="video-sec" class="container-fluid m-0 px-0 overflow-hidden mb-50">
-                <div class="container-fluid position-relative m-0 p-0 top-0">
-                    <div id="hero-banner" class="m-0 p-0 d-flex flex-column text-center text-white"
-                        style="padding-top: 12rem !important;">
-                        <!-- <h1>A Local Establishment</h1> -->
-                        <div id="hero-banner-background" class="rounded">
-                            <h1 class="display-1 teko fw-bolder mb-3 text-uppercase">Heatpress /<br>Direct To Film
-                                Transfer</h1>
-                            <p class="fs-4 text-start fw-normal text-md-center mx-0 mx-md-5">A Heatpress is a machine
-                                designed to imprint a design onto an item with the application of both heat and pressure
-                                for a preset period of time. Before an item can actually be heatpressed, the design must
-                                first be created on a computer. That design is then sent to either a vinyl cutter or to
-                                a direct to film transfer printer. If vinyl is being used, the cutter will trace the
-                                image onto the vinyl and the excess vinyl must be removed or weeded away from the
-                                desired design before being pressed onto the item. Vinyl comes in a variety of colors
-                                including neon, glitter, and reflective. <br>The other option that Gray’s Cappie
-                                Sportswear has for heatpress is printing designs on a direct to film transfer machine.
-                                This machine is similar to an inkjet printer in that it places ink onto transfer film,
-                                which is then coated in an adhesive powder before being cut and heatpressed onto an
-                                item. Direct to film transfers enable flexibility in creating intricate and extensive
-                                designs.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="d-block container-fluid position-absolute overflow-hidden p-0 m-0 mb-50"
-                        style="z-index: -10; height: 100vh;">
-                        <img src="src/images/heatpress.jpeg" alt="Placeholder image for Screen Printing"
-                            class="centered-background top-left blur">
-                    </div>
+    <section id="main-content" class="container-fluid m-0 p-0 top-left d-block overflow-hidden">
+        <div id="textpage-wrapper" class="p-0 m-0" style="background-image: url('src/images/heatpress.jpeg');">
+            <!-- Flex Positioning  -->
+            <div class="container-fluid d-flex mx-auto p-0 justify-content-center align-items-center text-white position-relative" style="min-height: 100vh; z-index: 10;">
+                <div id="hero-banner-background" class="rounded w-100">
+                    <h1 class="display-1 teko fw-bolder mb-3 text-uppercase text-center">Heatpress /<br>Direct To Film
+                        Transfer</h1>
+                    <p class="fs-3 text-start fw-normal text-md-center mx-0 mx-md-5">A Heatpress is a machine
+                        designed to imprint a design onto an item with the application of both heat and pressure
+                        for a preset period of time. Before an item can actually be heatpressed, the design must
+                        first be created on a computer. That design is then sent to either a vinyl cutter or to
+                        a direct to film transfer printer. If vinyl is being used, the cutter will trace the
+                        image onto the vinyl and the excess vinyl must be removed or weeded away from the
+                        desired design before being pressed onto the item. Vinyl comes in a variety of colors
+                        including neon, glitter, and reflective. <br>The other option that Gray’s Cappie
+                        Sportswear has for heatpress is printing designs on a direct to film transfer machine.
+                        This machine is similar to an inkjet printer in that it places ink onto transfer film,
+                        which is then coated in an adhesive powder before being cut and heatpressed onto an
+                        item. Direct to film transfers enable flexibility in creating intricate and extensive
+                        designs.
+                    </p>
                 </div>
             </div>
-        </div>
     </section>
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-light text-muted">
@@ -184,7 +172,8 @@
                         </h6>
                         <!-- Facebook Button -->
                         <div class="">
-                            <a href="https://www.facebook.com/grayscappiesportswear/" target="_blank" class="text-reset text-decoration-none">Visit us on Facebook&nbsp;
+                            <a href="https://www.facebook.com/grayscappiesportswear/" target="_blank"
+                                class="text-reset text-decoration-none">Visit us on Facebook&nbsp;
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     class="bi bi-facebook" viewBox="0 0 16 16">
                                     <path

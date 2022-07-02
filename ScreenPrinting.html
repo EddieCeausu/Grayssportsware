@@ -15,7 +15,7 @@
 
 <body class="">
     <header class="d-block teko">
-        <nav id="big-nav" class="navbar navbar-expand-lg navbar-light bg-light text-muted fs-2 justify-content-center">
+        <nav id="big-nav" class="navbar navbar-expand-md navbar-light bg-light text-muted fs-2 justify-content-center">
             <div class="d-flex container-fluid mobile-center m-2 mb-3">
                 <a class="navbar-brand" href="index.html">
                     <img src="src/images/website logo.png" alt="" width="144">
@@ -127,36 +127,24 @@
         </nav>
     </header>
     <!-- Main Contnet Wrapper -->
-    <section id="main-content" class="container-fluid m-0 p-0 top-left d-block">
-        <!-- Flex Positioning  -->
-        <div class="container-fluid d-flex flex-column m-0 p-0">
-            <div id="video-sec" class="container-fluid m-0 px-0 overflow-hidden mb-50">
-                <div class="container-fluid position-relative m-0 p-0">
-                    <div id="hero-banner" class="m-0 p-0 d-flex flex-column text-center text-white"
-                        style="padding-top: 12rem !important;">
-                        <!-- <h1>A Local Establishment</h1> -->
-                        <div id="hero-banner-background" class="rounded">
-                            <h1 class="display-1 teko fw-bolder mb-3 text-uppercase">Screen Printing</h1>
-                            <p class="fs-2 text-start fw-normal text-left text-md-center mx-0 mx-md-5">Screen printing
-                                (traditionally called silkscreen printing) is a printing technique where a piece of mesh
-                                stretched over a frame is used to transfer ink onto an item, except in areas made
-                                impermeable to the ink by a blocking stencil. A blade or squeegee moves ink across the
-                                stenciled screen, with slight pressure, in order to transfer the design onto the item.
-                                One color is printed at a time, so several screens must be used to produce a
-                                multi-colored image or design. Once the ink is transferred to the item, the item is run
-                                through a large dryer that cures the ink to the fabric. Gray’s Cappie Sportswear employs
-                                both a manual screen printing machine as well as an automatic machine.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="d-block container-fluid position-absolute overflow-hidden p-0 m-0 mb-50"
-                        style="z-index: -10; height: 100vh;">
-                        <img src="src/images/screenprinting-edited.jpeg" alt="Placeholder image for Screen Printing"
-                            class="centered-background top-left blur">
-                    </div>
+    <section id="main-content" class="container-fluid m-0 p-0 top-left d-block overflow-hidden">
+        <div id="textpage-wrapper" class="p-0 m-0" style="background-image: url('src/images/screenprinting-edited.jpeg');">
+            <!-- Flex Positioning  -->
+            <div class="container-fluid d-flex mx-auto p-0 justify-content-center align-items-center text-white position-relative" style="min-height: 100vh; z-index: 10;">
+                <div id="hero-banner-background" class="rounded w-100">
+                    <h1 class="display-1 teko fw-bolder mb-3 text-uppercase text-center">Screen Printing</h1>
+                    <p class="fs-3 text-start fw-normal text-md-center mx-0 mx-md-5">A Screen printing
+                        (traditionally called silkscreen printing) is a printing technique where a piece of mesh
+                        stretched over a frame is used to transfer ink onto an item, except in areas made
+                        impermeable to the ink by a blocking stencil. A blade or squeegee moves ink across the
+                        stenciled screen, with slight pressure, in order to transfer the design onto the item.
+                        One color is printed at a time, so several screens must be used to produce a
+                        multi-colored image or design. Once the ink is transferred to the item, the item is run
+                        through a large dryer that cures the ink to the fabric. Gray’s Cappie Sportswear employs
+                        both a manual screen printing machine as well as an automatic machine.
+                    </p>
                 </div>
             </div>
-        </div>
     </section>
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-light text-muted">
