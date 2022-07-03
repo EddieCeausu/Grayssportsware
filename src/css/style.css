@@ -77,6 +77,10 @@
     #contactUs {
         text-align: center !important;
     }
+
+    #navbarDropdown {
+        pointer-events: none !important;
+    }
 }
 /* ============ Medium view .end// ============ */
 
@@ -88,7 +92,6 @@
     .mb-50 {
        height: 150vh !important;
     }
-
 }
 
 /* #mapWrapper {
