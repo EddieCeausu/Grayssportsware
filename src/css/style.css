@@ -5,26 +5,31 @@
         text-align: center;
     }
 } */
-
+/* ========= Bigger Desktop ========= */
+@media all and (min-width: 1200px) {
+    #contactUs {
+        text-align: center !important;
+    }
+}
 
 /* ============ Desktop ============ */
 @media all and (min-width: 992px) {
-    .navbar .nav-item .dropdown-menu {
+    /* .navbar .nav-item .dropdown-menu {
         display: none;
     }
 
-    /* .navbar .nav-item:hover .nav-link{   } */
+
     .navbar .nav-item:hover .dropdown-menu {
         display: block;
-
-    }
+    } */
 
     .navbar .nav-item .dropdown-menu {
         margin-top: 0;
+        top: 60% !important;
     }
 
     .nav-margin {
-        margin: 0 3rem 0 0;
+        margin: 0 2rem 0 0;
     }
 
     ul#collapsableNav li:last-child {
@@ -74,13 +79,11 @@
         padding-top: 27rem !important;
     }
 
-    #contactUs {
-        text-align: center !important;
-    }
+    
 
-    #navbarDropdown {
+    /* #navbarDropdown {
         pointer-events: none !important;
-    }
+    } */
 }
 /* ============ Medium view .end// ============ */
 

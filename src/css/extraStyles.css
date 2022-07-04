@@ -14,7 +14,7 @@ ul#collapsableNav li:last-child{
 }
 
 /* - menu-desktop - */
-@media (min-width: 992px) {
+@media (min-width: 1201px) {
   .navbar .nav-item:hover .dropdown-menu{
     background-color:rgba(55,55,55,0.9)!important;
   }  
@@ -24,7 +24,7 @@ ul#collapsableNav li:last-child{
 }
 
 /* - menu-mobile - */
-@media (max-width: 991px) {
+@media (max-width: 1201px) {
   #navbarSupportedContent{
     margin-left:0 !important;
     padding-left:0!important;
